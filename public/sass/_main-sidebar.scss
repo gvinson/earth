@@ -1,0 +1,26 @@
+.main-sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 165px;
+	background-color: #fff;
+
+	.logo {
+		text-align: center;
+		display: block;
+		margin: 1.5em 0;
+	}
+	.logo p {
+		margin: 0.25em 0;
+		font: 2.8125em $populaire;
+		color: $black;
+		text-transform: uppercase;
+		line-height: 0.9;
+	}
+	.logo span {
+		font-size: 0.8888em;
+	}
+
+
+}
