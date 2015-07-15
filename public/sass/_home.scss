@@ -1,10 +1,38 @@
 body.home {
-	h1 {
-		color: $black;
-	}
+
 	.primary-content {
 		@media screen and (min-width: 768px) {
-			margin-left: 300px;
+			padding-left: 11%;
 		}
 	}
+
+	#logo-name {
+		position: relative;
+		margin-top: 17em;
+		padding-left: 7%;
+	}
+	h1 {
+		color: $black;
+		float: left;
+		line-height: 0.925;
+		letter-spacing: 1px;
+		span {
+			display: block;
+			margin-left: 0.5em;
+		}
+	}
+	#logo-name img {
+		position: absolute;
+		top: -8.5em;
+		margin-left: -3.5em;
+	}
+
+	.links {
+		clear: both;
+		a {
+		font: 2.5em $populaire;
+		color: $black;
+		}
+	}
+
 }

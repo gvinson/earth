@@ -17,7 +17,7 @@
         <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon"> 
         <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
         <style>
-            @font-face{font-family:populairemedium;src:url(/fonts/populaire-webfont.eot);src:url(/fonts/populaire-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/populaire-webfont.woff2) format('woff2'),url(/fonts/populaire-webfont.woff) format('woff'),url(/fonts/populaire-webfont.ttf) format('truetype'),url(/fonts/populaire-webfont.svg#populairemedium) format('svg');font-weight:400;font-style:normal}@font-face{font-family:proxima_nova_rgbold_italic;src:url(/fonts/proxima_nova_bold_it-webfont.eot);src:url(/fonts/proxima_nova_bold_it-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/proxima_nova_bold_it-webfont.woff2) format('woff2'),url(/fonts/proxima_nova_bold_it-webfont.woff) format('woff'),url(/fonts/proxima_nova_bold_it-webfont.ttf) format('truetype'),url(/fonts/proxima_nova_bold_it-webfont.svg#proxima_nova_rgbold_italic) format('svg');font-weight:400;font-style:normal}@font-face{font-family:proxima_nova_rgbold;src:url(/fonts/proxima_nova_bold-webfont.eot);src:url(/fonts/proxima_nova_bold-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/proxima_nova_bold-webfont.woff2) format('woff2'),url(/fonts/proxima_nova_bold-webfont.woff) format('woff'),url(/fonts/proxima_nova_bold-webfont.ttf) format('truetype'),url(/fonts/proxima_nova_bold-webfont.svg#proxima_nova_rgbold) format('svg');font-weight:400;font-style:normal}@font-face{font-family:proxima_nova_rgregular;src:url(/fonts/proxima_nova_reg-webfont.eot);src:url(/fonts/proxima_nova_reg-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/proxima_nova_reg-webfont.woff2) format('woff2'),url(/fonts/proxima_nova_reg-webfont.woff) format('woff'),url(/fonts/proxima_nova_reg-webfont.ttf) format('truetype'),url(/fonts/proxima_nova_reg-webfont.svg#proxima_nova_rgregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:icomoon;src:url(/fonts/icomoon.eot?-yzzafu);src:url(/fonts/icomoon.eot?#iefix-yzzafu) format('embedded-opentype'),url(/fonts/icomoon.ttf?-yzzafu) format('truetype'),url(/fonts/icomoon.woff?-yzzafu) format('woff'),url(/fonts/icomoon.svg?-yzzafu#icomoon) format('svg');font-weight:400;font-style:normal}[class*=" icon-"],[class^=icon-]{font-family:icomoon;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-leaf:before{content:"\e600"}.icon-facebook:before{content:"\ea8c";}
+            @font-face{font-family:populairemedium;src:url(/fonts/populaire-webfont.eot);src:url(/fonts/populaire-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/populaire-webfont.woff2) format('woff2'),url(/fonts/populaire-webfont.woff) format('woff'),url(/fonts/populaire-webfont.ttf) format('truetype'),url(/fonts/populaire-webfont.svg#populairemedium) format('svg');font-weight:400;font-style:normal;}@font-face{font-family:proxima-nova;src:url(/fonts/proxima_nova_bold_it-webfont.eot);src:url(/fonts/proxima_nova_bold_it-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/proxima_nova_bold_it-webfont.woff2) format('woff2'),url(/fonts/proxima_nova_bold_it-webfont.woff) format('woff'),url(/fonts/proxima_nova_bold_it-webfont.ttf) format('truetype'),url(/fonts/proxima_nova_bold_it-webfont.svg#proxima_nova_rgbold_italic) format('svg');font-weight:bold;font-style:italic;}@font-face{font-family:proxima-nova;src:url(/fonts/proxima_nova_bold-webfont.eot);src:url(/fonts/proxima_nova_bold-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/proxima_nova_bold-webfont.woff2) format('woff2'),url(/fonts/proxima_nova_bold-webfont.woff) format('woff'),url(/fonts/proxima_nova_bold-webfont.ttf) format('truetype'),url(/fonts/proxima_nova_bold-webfont.svg#proxima_nova_rgbold) format('svg');font-weight:bold;font-style:normal;}@font-face{font-family:proxima-nova;src:url(/fonts/proxima_nova_reg-webfont.eot);src:url(/fonts/proxima_nova_reg-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/proxima_nova_reg-webfont.woff2) format('woff2'),url(/fonts/proxima_nova_reg-webfont.woff) format('woff'),url(/fonts/proxima_nova_reg-webfont.ttf) format('truetype'),url(/fonts/proxima_nova_reg-webfont.svg#proxima_nova_rgregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:icomoon;src:url(/fonts/icomoon.eot?-yzzafu);src:url(/fonts/icomoon.eot?#iefix-yzzafu) format('embedded-opentype'),url(/fonts/icomoon.ttf?-yzzafu) format('truetype'),url(/fonts/icomoon.woff?-yzzafu) format('woff'),url(/fonts/icomoon.svg?-yzzafu#icomoon) format('svg');font-weight:400;font-style:normal}[class*=" icon-"],[class^=icon-]{font-family:icomoon;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-leaf:before{content:"\e600"}.icon-facebook:before{content:"\ea8c";}
         </style>
     @show
     <!--[if lt IE 9]>
@@ -34,6 +34,8 @@
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
+
+<div class="body-wrapper">
 
     <aside class="main-sidebar">
 
@@ -66,9 +68,9 @@
             <p>309 S Flood Ave,<br>
             Norman, OK 73069</p>
             <p>
-                Mon - Fri  |  8am - 8pm
-                Sat  |  9am - 8pm
-                Sun  |  10am - 5pm
+                Mon - Fri  |  8am - 8pm<br>
+                Sat  |  9am - 8pm<br>
+                Sun  |  10am - 5pm<br>
             </p>
         </div>
 
@@ -84,6 +86,8 @@
         @section('content')
         @show
     </section>
+    
+</div>
 
 </body>
 @section('scripts')

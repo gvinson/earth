@@ -1,26 +1,11 @@
 .main-sidebar {
-	position: fixed;
+	/* position: fixed;
 	top: 0;
 	left: 0;
-	bottom: 0;
+	bottom: 0; */
+	display: table-cell;
+	vertical-align: top;
 	width: 165px;
+	padding: 0 0.5em 0 1em;
 	background-color: #fff;
-
-	.logo {
-		text-align: center;
-		display: block;
-		margin: 1.5em 0;
-	}
-	.logo p {
-		margin: 0.25em 0;
-		font: 2.8125em $populaire;
-		color: $black;
-		text-transform: uppercase;
-		line-height: 0.9;
-	}
-	.logo span {
-		font-size: 0.8888em;
-	}
-
-
 }

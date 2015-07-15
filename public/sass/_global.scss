@@ -32,6 +32,13 @@ p a {
 	@include transition(color 0.15s ease-in-out);
 }
 
+.body-wrapper {
+	display: table;
+  	height: 100%;
+  	width: 100%;
+  	overflow-x: hidden;
+}
+
 .mobile-only {
 	display: initial;
 	&.block { display: block; }

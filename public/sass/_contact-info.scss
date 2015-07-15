@@ -1,0 +1,21 @@
+.contact-info {
+	margin: 2.5em 0 1em;
+	@media screen and (min-height: 850px) {
+		position: absolute;
+		bottom: 3%;
+		margin: 0;
+	}
+	
+	p {
+		margin: 0;
+		padding: 0.375em 0;
+		font: 0.8em $proxima;
+		color: #777;
+		line-height: 1.75;
+		letter-spacing: 0.5px;
+		border-bottom: 1px solid #ccc;
+		&:last-child {
+			border-bottom: 0px;
+		}
+	}
+}

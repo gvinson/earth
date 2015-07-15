@@ -1,0 +1,38 @@
+.main-nav {
+	a {
+		font-family: $populaire;
+	}
+	ul {
+		padding: 0.25em 1em 1.25em 2.1em;
+	}
+	ul a {
+		display: block;
+		padding: 0.225em 0;
+		font-size: 1.75em;
+		color: $black;
+		letter-spacing: 1px;
+		@include transition(color 0.25s ease-in-out);
+		&:hover, .active {
+			color: $green;
+		}
+	}
+}
+
+
+.social-discover {
+	a {
+		color: $green;
+		font-size: 1.15em;
+		letter-spacing: 0.5px;
+	}
+	[class*="icon"] {
+		@include inline-block;
+		margin-right: 0.2em;
+		height: 1.15em;
+		width: 1.22em;
+		line-height: 1.15em;
+		background-color: $green;
+		@include border-radius(50%);
+		color: white;
+	}
+}
