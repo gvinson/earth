@@ -6,8 +6,9 @@ h1 {
 	font-size: 6.4375em; 
 	color: $green;
 	text-align: center;
-	margin-bottom: 0.25em;
+	margin-bottom: 0;
 	position: relative;
+	line-height: 1;
 	@media screen and (max-width: 600px) {
 		font-size: 5em;
 	}
@@ -19,11 +20,7 @@ h2 {
 	}
 }
 .underline {
-	position: absolute;
-	left: 50%;
-	@include transform(translate(-45%));
-	top: 85%;
-	&.green {
-		color: $green;
-	}
+	width: 300px;
+	margin: 0 auto;
+	display: block;
 }

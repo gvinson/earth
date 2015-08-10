@@ -31,6 +31,18 @@ a {
 p a {
 	@include transition(color 0.15s ease-in-out);
 }
+p {
+	color: $black;
+	font: bold italic 0.875em $proxima;
+	line-height: 2;
+}
+
+hr {
+	border: 0px;
+	border-top: 1px solid black;
+	height: 1px;
+	width: 100%;
+}
 
 .body-wrapper {
   	height: 100%;
