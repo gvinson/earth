@@ -1,46 +1,111 @@
 body.home {
-
-	.primary-content {
+	#rwd-wrapper {
+		padding: 0 5% 0;
+		@include transform(translateY(10%));
 		@media screen and (min-width: 768px) {
-			padding-left: 11%;
+			padding: 0 0 0 11%;
+			@include transform(translateY(50%));
 		}
 	}
 
-	#logo-name {
+	#title-wrapper {
 		position: relative;
-		margin-top: 17em;
-		padding-left: 7%;
+		@media screen and (min-width: 767px) {
+			width: 100%;
+			height: 13em;
+		}
 	}
+
 	h1 {
 		color: $black;
 		float: left;
-		margin-top: 0.8em;
+		margin-top: 10%;
 		line-height: 0.925;
 		letter-spacing: 1px;
+		text-align: left;
+		@include text-shadow(2px 2px 0px #d1e6d3);
+		@media screen and (min-width: 768px) {
+			margin-top: 5%;
+		}
+		@media screen and (min-width: 600px) and (max-width: 767px) {
+			@include transform(translateX(25%));
+		}
+		@media screen and (max-width: 600px) {
+			float: none;
+			@include transform(translateX(15%));
+		}
+		@media screen and (max-width: 450px) {
+			@include transform(translateX(5%));	
+		}
+
+
 		span {
 			display: block;
 			margin-left: 0.5em;
 		}
 	}
-	#logo-name img {
+
+	.welcome-logo {
 		position: absolute;
-		top: -8.5em;
-		margin-left: -3.5em;
+		z-index: -1;
+		@media screen and (max-width: 992px) {
+			width: 40%;
+		}
+		@media screen and (min-width:767px) {
+			margin-top: -7.5em;
+			margin-left: -4.5em;
+		}
+		@media screen and (max-width: 600px) {
+			margin-left: 0;
+			left: 12.5em;
+			width: 10em;
+			margin-top: -2em;
+
+			position: absolute;
+			top: -1em;
+			left: 15em;
+			left: 55%;
+		}
+
 	}
 
 	.links {
 		display: table;
-		width: 85%;
+		padding-top: 2em;
+		width: 100%;
+		@media screen and (min-width: 768px) {
+			margin-left: -10%;
+			padding-top: 0;
+		}
+		@media screen and (min-width: 1085px) {
+			width: 48em;
+			margin-left: -7em;
+		}
+		@media screen and (max-width: 767px) {
+			padding: 0.15em;
+			display: block;
+			width: 15em;
+			margin: 0 auto;
+		}
 		a {
-			display: table-cell;
+			display: block;
 			padding: 0 7%;
 			font: 2.5em $populaire;
 			color: $black;
+			max-width: 4em;
+			margin: 0.5em auto;
+			@media screen and (min-width: 768px) {
+				display: table-cell;
+				max-width: 100%;
+			}
 		}
 		span {
 			display: block;
 			text-align: right;
 			position: relative;
+			@media screen and (max-width: 767px) {
+				text-align:center;
+			}
 		}
 		span img {
 			display: none;
@@ -50,13 +115,25 @@ body.home {
 
 	.links a:hover {
 		span {
-			@include transform(rotate(-6deg));
-			margin-top: 0.25em;
-			img {
-				display: inline;
-				margin-top: 0.5em;
-				margin-left: -0.875em;
+			@media screen and (min-width: 768px) {
+				@include transform(rotate(-6deg));
 			}
+			img {
+				display: block;
+				right: 0.75em;
+				top: 50%;
+				@media screen and (max-width: 767px) {
+					display: none !important
+				}
+			}
+		}
+	}
+	.links a {
+		&[href="/contact"]:hover img {
+			right: 1.55em;
+		}
+		&[href="/grocery"]:hover img {
+			right: 1.35em;
 		}
 	}
 

@@ -2,5 +2,28 @@ h1, h2, h3 {
 	font-family: $populaire;
 	font-weight: normal;
 }
-h1 { font-size: 6.4375em; }
-h2 { font-size: 3.4375em; }
+h1 {
+	font-size: 6.4375em; 
+	color: $green;
+	text-align: center;
+	margin-bottom: 0.25em;
+	position: relative;
+	@media screen and (max-width: 600px) {
+		font-size: 5em;
+	}
+}
+h2 { 
+	font-size: 3.4375em; 
+	@media screen and (max-width: 600px) {
+		font-size: 2.4375em;
+	}
+}
+.underline {
+	position: absolute;
+	left: 50%;
+	@include transform(translate(-45%));
+	top: 85%;
+	&.green {
+		color: $green;
+	}
+}

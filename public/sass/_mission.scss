@@ -1,0 +1,27 @@
+.mission-statement {
+	color: $dark-green;
+	font: 2.4375em $populaire;
+	text-align: center;
+	width: 580px;
+	margin: 0 auto;
+	line-height: 1.5;
+	@media screen and (min-width: 768px) {
+		font-size: 3.4375em;
+	}
+}
+.mission-bg {
+	position: fixed;
+	top: 5%;
+	left: 0;
+	z-index: -1;
+}
+
+.grid {
+	@media screen and (max-width: 767px)  {
+		[class*="col-"] {
+			width: 48% !important;
+			margin: 0.35em 1% !important;
+			text-align: center;
+		}
+	}
+}

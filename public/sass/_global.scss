@@ -33,10 +33,25 @@ p a {
 }
 
 .body-wrapper {
-	display: table;
   	height: 100%;
   	width: 100%;
   	overflow-x: hidden;
+  	@media screen and (min-width: 768px) {
+		display: table;
+  	}
+}
+.primary-content {
+	@media screen and (min-width: 768px) {
+		display: table-cell;
+	}
+}
+#rwd-wrapper {
+	width: auto;
+	padding: 0 1em;
+	@media screen and (min-width: 799px) {
+		max-width: 800px;
+		margin-left: 7%;
+	}
 }
 
 .mobile-only {
