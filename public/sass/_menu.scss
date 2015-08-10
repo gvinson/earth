@@ -16,11 +16,15 @@
 	list-style: none;
 	padding: 0;
 	width: 100%;
+
 	li {
 		line-height: 2;
 	}
+
+	&.purple .dish { color: $purple; }
+	&.orange .dish { color: $orange; }
+
 	.dish {
-		color: $purple;
 		font: bold 0.875em $proxima;
 		text-align: right;
 		padding-right: 2%;
@@ -47,5 +51,12 @@
 		width: 87%;
 		margin-left: 15%;
 		padding-top: 1em;
+	}
+}
+
+.menu-dishes {
+	@media screen and (min-width: 768px) {
+		float:left;
+		& + .menu-dishes { float: right; @include clearfix; }
 	}
 }
