@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-	@parent Mission
+	@parent Menu
 @stop
 	@section('stylesheets')
 	<? echo "<style>"; ?>
