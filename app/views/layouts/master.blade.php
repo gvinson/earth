@@ -103,7 +103,6 @@
     <script>
     $(document).on('ready', function() {
         $(".main-nav a[href='" + window.location.pathname + "']").addClass('active');
-        console.dir($('.main-nav a[href="' + window.location.pathname + '"]'));
     });
     </script>
 @show

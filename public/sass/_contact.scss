@@ -1,0 +1,79 @@
+.contact {
+	.grid {
+		margin: 0 0 0 5%;
+	}
+	.icon-wrapper {
+		width: 3.4375em;
+		text-align:left;
+		@include inline-block;
+	}
+	.vert-align {
+		margin-bottom: 1.5em;
+		vertical-align:middle;
+		* { vertical-align: middle; }
+	}
+	.vert-align p {
+		@include inline-block;
+		margin: 0 0 0 0.85em;
+		font: 1.875em $populaire;
+		color: $black;
+		letter-spacing: 1px;
+	}
+}
+
+#contact-form {
+	input, textarea {
+		background-color: transparent;
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		@include border-radius(0px);
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		border: 2px solid #888b89;
+		width: 100%;
+		margin: 0 0 0.5em;
+		font: 28px $populaire;
+		line-height: 28px;
+		padding: 0.25em 0.5em;
+		@include transition(all 0.25s ease-in-out);
+		color: $black;
+		letter-spacing: 1px;
+		&:focus {
+			outline: none;
+			border-color: $orange;
+			@include input-placeholder {
+				color: $orange;
+			}
+			color: $orange;
+		}
+		@include input-placeholder {
+			color: $black;
+			font: 28px $populaire;
+			@include transition(color 0.25s ease-in-out);
+		}
+	}
+
+	textarea {
+		padding: 0.5em;
+	}
+
+	input[type="submit"] {
+		color: $black;
+		border: 2px solid #888b89;
+		background-color: transparent;
+		@include transition(all 0.25s ease-in-out);
+		font: 28px $populaire;
+		line-height: 28px;
+		padding: 0.35em 0.5em 0.25em 0.5em;
+		float: right;
+		letter-spacing: 1px;
+		&:hover {
+			color: $orange;
+			border-color: $orange;
+		}
+	}
+}
