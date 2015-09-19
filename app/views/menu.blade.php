@@ -112,7 +112,7 @@
 							Quiche Solo
 						</span>
 						<span class="dish-details">
-							a new quiche baked daily $5.99
+							a new quiche baked daily 5.99
 						</span>
 					</li>
 					<li>
@@ -120,7 +120,7 @@
 							Quiche lunch 
 						</span>
 						<span class="dish-details">
-							small side salad and a cup of veggie chili or soup of the day $8.99
+							small side salad and a cup of veggie chili or soup of the day 8.99
 						</span>
 					</li>
 				</ul>
@@ -132,7 +132,7 @@
 							Soup of the day
 						</span>
 						<span class="dish-details">
-							changes daily based on seasonal veggies Cup $4.50 Bowl $6.50
+							changes daily based on seasonal veggies Cup 4.50 Bowl 6.50
 						</span>
 					</li>
 					<li>
@@ -140,7 +140,7 @@
 							Half sandwich and soup
 						</span>
 						<span class="dish-details">
-							cup of veggie chili or soup of the day served with any half sandwich $7.99
+							cup of veggie chili or soup of the day served with any half sandwich 7.99
 						</span>
 					</li>
 				</ul>
@@ -237,10 +237,10 @@
 				</ul>
 				<hr>
 				<p>Pick one: Chili, Salsa, Portobello, Fool your mom, Taco Tempeh, Tuna Salad, Turkey
-					each additional: $0.99<br>
-				Pick one: Avocado, Hummus, Tabouli, Farmers Cheese, Swiss Cheese, Soy Cheese, Walnuts, Fakin, each additional: $0.75<br>
+					each additional: 0.99<br>
+				Pick one: Avocado, Hummus, Tabouli, Farmers Cheese, Swiss Cheese, Soy Cheese, Walnuts, Fakin, each additional: 0.75<br>
 				Pick one: Red onion, Red pepper, Jalapenos, Olives, Tomatoes, Sprouts, Pumpkin Seeds, Carrot Shreds
-				each additional: $0.30</p>
+				each additional: 0.30</p>
 			</div>
 		</div>
 
@@ -384,7 +384,7 @@
 			Organic Smoothies & Juices
 		</h2>
 		<p class="subtitle">
-			Made with 100%: Apple juice, orange juice, whole milk, skim milk, soy milk or almond milk (+$0.99)
+			Made with 100%: Apple juice, orange juice, whole milk, skim milk, soy milk or almond milk (+0.99)
 		</p>
 		<div class="grid">
 			<div class="col-8">
