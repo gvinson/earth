@@ -4,12 +4,6 @@
 		vertical-align: middle;
 		padding-right: 0.25em;
 	}
-	&.purple {
-		color: $purple;
-	}
-	&.orange {
-		color: $orange;
-	}
 }
 
 .menu-dishes {
@@ -18,40 +12,47 @@
 	width: 100%;
 
 	li {
-		line-height: 2;
+		line-height: 1.7;
+		margin: 1em 0;
 	}
 
-	&.purple .dish { color: $purple; }
-	&.orange .dish { color: $orange; }
-
 	.dish {
+		color: inherit;
 		font: bold 0.875em $proxima;
-		text-align: right;
 		padding-right: 2%;
 		text-transform: uppercase;
-		width: 50%;
 		@include inline-block;
+		vertical-align: top;
 	}
 	.dish-details {
 		color: $black;
 		font: bold italic 0.875em $proxima;
-		width: 48%;
 		@include inline-block;
+		vertical-align: top;
 	}
-	& + hr {
-		max-width: 87%;
-		margin: 0;
-		float: right;
-		@include clearfix;
+	.long-dish {
+		font: bold 0.875em $proxima;
+		text-transform: uppercase;
+		vertical-align: top;
 	}
-	& + hr + p {
-		@include clearfix;
-		margin-left: 0.5em;
-		margin-right: 0.5em;
-		width: 87%;
-		margin-left: 15%;
-		padding-top: 1em;
+	.long-dish-details {
+		color: $black;
+		font: bold italic 0.875em $proxima;
+		display: block;
+		vertical-align: top;
 	}
+}
+
+hr {
+	width: 95%;
+	margin: 0;
+}
+
+.column-title {
+	font-size: 1.15em;
+	color: $black;
+	text-align: left;
+	margin: 0;
 }
 
 .menu-dishes {
@@ -60,3 +61,19 @@
 		& + .menu-dishes { float: right; @include clearfix; }
 	}
 }
+
+.subtitle {
+	width: 550px;
+	margin: 0 auto 1em;
+	text-align: center;
+}
+
+.breakfast { color: $breakfast; }
+.quiche { color:$orange; }
+.nachos { color:$nachos; }
+.salads { color:$salads; }
+.sandwiches { color:$sandwiches; }
+.sides { color:$sides; }
+.smoothies { color:$smoothies; }
+.coffee { color:$coffee; }
+.bakedgoods { color:$bakedgoods; }

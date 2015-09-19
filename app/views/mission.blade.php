@@ -35,18 +35,6 @@
 			<div class="col-4">
 				<img src="/img/mission4.jpg" alt="Mission">
 			</div>
-			<div class="col-4">
-				<img src="/img/mission1.jpg" alt="Mission">
-			</div>
-			<div class="col-4">
-				<img src="/img/mission2.jpg" alt="Mission">
-			</div>
-			<div class="col-4">
-				<img src="/img/mission3.jpg" alt="Mission">
-			</div>
-			<div class="col-4">
-				<img src="/img/mission4.jpg" alt="Mission">
-			</div>
 		</div>
 	</section>
 	

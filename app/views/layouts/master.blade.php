@@ -52,7 +52,6 @@
                 <li><a href="/">HOME</a></li>
                 <li><a href="/menu">MENU</a></li>
                 <li><a href="/mission">MISSION</a></li>
-                <li><a href="/grocery">GROCERY</a></li>
                 <li><a href="/contact">CONTACT</a></li>
             </ul>
             <div class="social-discover">
