@@ -544,10 +544,6 @@
 						<span class="dish">Scones</span>
 						<span class="dish-details">2.75</span>
 					</li>
-				</ul>
-			</div>
-			<div class="col-8">
-				<ul class="menu-dishes bakedgoods">
 					<li>
 						<span class="dish">Cake & Pie</span>
 						<span class="dish-details">3.75 per slice</span>

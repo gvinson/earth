@@ -3,6 +3,7 @@
 	img {
 		vertical-align: middle;
 		padding-right: 0.25em;
+		max-width: 25%;
 	}
 }
 
@@ -77,3 +78,9 @@ hr {
 .smoothies { color:$smoothies; }
 .coffee { color:$coffee; }
 .bakedgoods { color:$bakedgoods; }
+h2.smoothies {
+	font-size: 3em;
+	@media screen and (max-width: 767px) {
+		font-size: 2em;
+	}
+}
