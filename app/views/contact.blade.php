@@ -13,7 +13,7 @@
 @section('content')
 	
 	<section id="rwd-wrapper">
-		<h1>CONTACTING THE EARTH</h1>
+		<h1>CONTACTING THE EARTH.</h1>
 		<img class="underline" src="/img/underline.svg" alt="">
 		<br><br><br>
 		<a href="https://www.google.com/maps/place/309+S+Flood+Ave,+Norman,+OK+73069/@35.2155706,-97.4527882,17z/data=!3m1!4b1!4m2!3m1!1s0x87b269cda0e91c5d:0xf3d15bedd702bc55" target="_blank" style="display:block; text-align:center;">
