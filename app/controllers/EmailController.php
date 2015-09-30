@@ -33,7 +33,7 @@ class EmailController  extends BaseController {
 				} else {
 					// Validation passed
 					Mail::send('emails.contact', $input, function($message) use ($input) {
-					        $message->to('vinsongrant@gmail.com')
+					        $message->to('theearthnatural@gmail.com')
 					        		->from($input['email'], $input['name'])
 					        		->subject('Contact Form Submission')
 					        		->replyTo($input['email'], $input['name']);
