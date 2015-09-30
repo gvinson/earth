@@ -48,6 +48,7 @@
 			</div>
 			<div class="col-8">
 				<form class="ajax" action="/contact" method="post" id="contact-form">
+					<input type="text" name="honeypot" id="honeypot" style="position: absolute; left: -100000%;">
 					<input type="text" name="name" placeholder="NAME" required>
 					<br>
 					<input type="email" name="email" placeholder="EMAIL" required>

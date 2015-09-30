@@ -11,5 +11,8 @@
 |
 */
 
+Route::post('/contact', 'EmailController@submit');
+
+
 # Default page controller
 Route::get('{page?}/{sub?}', 'PageController@index');

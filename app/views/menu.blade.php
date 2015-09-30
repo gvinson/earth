@@ -232,7 +232,8 @@
 				<ul class="menu-dishes salads">
 					<li style="margin-bottom: 0;">
 						<span class="dish">Create your own</span>
-						<span class="dish-details">Served on mixed greens</span>
+						<span class="dish-details">7.25</span>
+						<span class="long-dish-details">Served on mixed greens</span>
 					</li>
 				</ul>
 				<hr>
@@ -393,15 +394,15 @@
 						<span class="dish">Smoothies</span>
 						<span class="dish-details">5.99 - 16 oz</span>
 						<span class="long-dish-details">
-							Blueberry + banana + PB<br>
-							Blueberry + peach + strawberry<br>
-							Banana + mango + peach<br>
-							Banana + mango + blueberry<br>
-							Banana + strawberry<br>
-							Mango + strawberry<br>
-							Blueberry + mango<br>
-							Banana + cocoa + PB<br>
-							Banana + Kale
+							1. Blueberry + banana + PB<br>
+							2. Blueberry + peach + strawberry<br>
+							3. Banana + mango + peach<br>
+							4. Banana + mango + blueberry<br>
+							5. Banana + strawberry<br>
+							6. Mango + strawberry<br>
+							7. Blueberry + mango<br>
+							8. Banana + cocoa + PB<br>
+							9. Banana + Kale
 						</span>
 					</li>
 				</ul>
@@ -415,14 +416,14 @@
 							5.99 - 16 oz
 						</span>
 						<span class="long-dish-details">
-							Carrot<br>
-							Carrot + ginger + orange <br>
-							Apple + orange + pear<br>
-							Beet + carrot + celery + garlic + ginger<br>
-							Beet + carrot + ginger + lemon<br>
-							Apple + cabbage + carrot + spinach<br>
-							Cucumber + lemon + ginger<br>
-							Orange
+							1. Carrot<br>
+							2. Carrot + ginger + orange <br>
+							3. Apple + orange + pear<br>
+							4. Beet + carrot + celery + garlic + ginger<br>
+							5. Beet + carrot + ginger + lemon<br>
+							6. Apple + cabbage + carrot + spinach<br>
+							7. Cucumber + lemon + ginger<br>
+							8. Orange
 						</span>
 					</li>
 					<li>
