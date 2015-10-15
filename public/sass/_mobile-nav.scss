@@ -1,4 +1,7 @@
 #mobile-nav-wrapper {
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
 	position: absolute;
 	top: -110%;
 	left: 0;

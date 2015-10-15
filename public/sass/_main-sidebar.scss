@@ -7,4 +7,11 @@
 		padding: 0 0.5em 0 1em;
 		background-color: #fff;
 	}
+
+	.fixed {
+		@media screen and (min-width: 768px) {
+			position: fixed;
+			height: 100%;
+		}
+	}
 }

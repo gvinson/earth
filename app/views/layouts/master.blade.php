@@ -38,39 +38,40 @@
 <div class="body-wrapper">
 
     <aside class="main-sidebar">
+        <div class="fixed">
+            <a href="/" class="logo">
+                <img src="/img/icon-nav-logo.png" srcset="/img/icon-nav-logo.png 1x, /img/icon-nav-logo@2x.png 2x" alt="Logo">
+                <p>
+                    THE EARTH<br>
+                    <span>CAFE &amp; DELI</span>
+                </p>
+            </a>
 
-        <a href="/" class="logo">
-            <img src="/img/icon-nav-logo.png" srcset="/img/icon-nav-logo.png 1x, /img/icon-nav-logo@2x.png 2x" alt="Logo">
-            <p>
-                THE EARTH<br>
-                <span>CAFE &amp; DELI</span>
-            </p>
-        </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/menu">MENU</a></li>
+                    <li><a href="/mission">MISSION</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
+                </ul>
+                <div class="social-discover">
+                    <a href="" target="_blank">
+                        <i class="icon-facebook"></i>
+                        DISCOVER THE EARTH
+                    </a>
+                </div>
+            </nav>
 
-        <nav class="main-nav">
-            <ul>
-                <li><a href="/">HOME</a></li>
-                <li><a href="/menu">MENU</a></li>
-                <li><a href="/mission">MISSION</a></li>
-                <li><a href="/contact">CONTACT</a></li>
-            </ul>
-            <div class="social-discover">
-                <a href="" target="_blank">
-                    <i class="icon-facebook"></i>
-                    DISCOVER THE EARTH
-                </a>
+            <div class="contact-info">
+                <p>405.364.3551</p>
+                <p>309 S Flood Ave,<br>
+                Norman, OK 73069</p>
+                <p>
+                    Mon - Fri  |  8am - 8pm<br>
+                    Sat  |  9am - 8pm<br>
+                    Sun  |  10am - 5pm<br>
+                </p>
             </div>
-        </nav>
-
-        <div class="contact-info">
-            <p>405.364.3551</p>
-            <p>309 S Flood Ave,<br>
-            Norman, OK 73069</p>
-            <p>
-                Mon - Fri  |  8am - 8pm<br>
-                Sat  |  9am - 8pm<br>
-                Sun  |  10am - 5pm<br>
-            </p>
         </div>
     </aside>
 
