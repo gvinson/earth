@@ -7,10 +7,43 @@ module.exports = function(grunt) {
 		criticalcss: {
 	        home: {
 	            options: {
-	                url: "http://grantvinson.dev/",
+	                url: "http://earth.dev/",
 	                width: 1300,
 	                height: 1000,
-	                outputfile: "public/css/home-criticalcss.css",
+	                outputfile: "app/views/home-criticalcss.php",
+	                filename: "public/css/layout.css", // Using path.resolve( path.join( ... ) ) is a good idea here
+	                buffer: 1024*1300,
+	                ignoreConsole: true
+	            }
+	        },
+	        mission: {
+	            options: {
+	                url: "http://earth.dev/mission",
+	                width: 1300,
+	                height: 1000,
+	                outputfile: "app/views/mission-criticalcss.php",
+	                filename: "public/css/layout.css", // Using path.resolve( path.join( ... ) ) is a good idea here
+	                buffer: 1024*1300,
+	                ignoreConsole: true
+	            }
+	        },
+	        menu: {
+	            options: {
+	                url: "http://earth.dev/menu",
+	                width: 1300,
+	                height: 1000,
+	                outputfile: "app/views/menu-criticalcss.php",
+	                filename: "public/css/layout.css", // Using path.resolve( path.join( ... ) ) is a good idea here
+	                buffer: 1024*1300,
+	                ignoreConsole: true
+	            }
+	        },
+	        contact: {
+	            options: {
+	                url: "http://earth.dev/contact",
+	                width: 1300,
+	                height: 1000,
+	                outputfile: "app/views/contact-criticalcss.php",
 	                filename: "public/css/layout.css", // Using path.resolve( path.join( ... ) ) is a good idea here
 	                buffer: 1024*1300,
 	                ignoreConsole: true
@@ -71,7 +104,7 @@ module.exports = function(grunt) {
 	    	},
 	    	sass: {
     	        files: [ 'public/sass/*.scss' ],
-    	        tasks: ['compass:dist',/* 'criticalcss:home'*/]
+    	        tasks: ['compass:dist', 'criticalcss:home', 'criticalcss:mission', 'criticalcss:menu', 'criticalcss:contact']
     	    },
     	    css: {
     	        options: { livereload: true },

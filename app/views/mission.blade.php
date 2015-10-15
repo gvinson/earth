@@ -4,7 +4,7 @@
 @stop
 	@section('stylesheets')
 	<? echo "<style>"; ?>
-		
+		@include('mission-criticalcss')
 	<? echo "</style>"; ?>
 	@parent
 @stop

@@ -4,7 +4,7 @@
 @stop
 	@section('stylesheets')
 	<? echo "<style>"; ?>
-		
+		@include('home-criticalcss')
 	<? echo "</style>"; ?>
 	@parent
 @stop

@@ -4,7 +4,7 @@
 @stop
 	@section('stylesheets')
 	<? echo "<style>"; ?>
-		
+		@include('contact-criticalcss')
 	<? echo "</style>"; ?>
 	@parent
 	<link rel="stylesheet" href="/js/vendor/js-webshim/minified/shims/styles/shim.css">
