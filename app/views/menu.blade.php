@@ -386,6 +386,8 @@
 		</h2>
 		<p class="subtitle">
 			Made with 100%: Apple juice, orange juice, whole milk, skim milk, soy milk or almond milk (+0.99)
+			<br>
+			Add to any smoothie for 0.99: kale, spinach, peanut butter, flaxmeal, whey protein, hemp protein, spirulina
 		</p>
 		<div class="grid">
 			<div class="col-8">
@@ -552,6 +554,8 @@
 				</ul>
 			</div>
 		</div>
+
+		<p style="text-align:center;">*To go orders - the cost of the container will be passed on to the customer</p>
 
 
 	</section>
