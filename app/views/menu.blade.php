@@ -414,7 +414,7 @@
 					<li>
 						<span class="dish">Juice</span>
 						<span class="dish-details">
-							3.99 - 9 oz<br>
+							3.99 - 8 oz<br>
 							5.99 - 16 oz
 						</span>
 						<span class="long-dish-details">
@@ -505,7 +505,7 @@
 					</li>
 					<li>
 						<span class="dish">Dirty Chai</span>
-						<span class="dish-details">2.50</span>
+						<span class="dish-details">add 2.50</span>
 					</li>
 					<li>
 						<span class="dish">Shot in the dark</span>
