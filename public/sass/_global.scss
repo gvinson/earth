@@ -26,7 +26,6 @@ body {
 		font-size: 16px;
 	}
 	background: url(../img/bg.jpg) 165px 0 repeat #bcd9c4;
-	@include background-size(cover);
 }
 
 a {
@@ -65,7 +64,6 @@ hr {
 	}
 }
 #rwd-wrapper {
-	width: 100%;
 	padding: 0 1em;
 	max-width: none;
 	@media screen and (min-width: 799px) {

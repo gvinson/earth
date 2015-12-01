@@ -22,7 +22,7 @@ html, body{ min-height: 100%; min-width: 100%; margin-top: 0px; margin-right: 0p
 @media screen and (min-width: 768px){
 html, body{ height: 100%; width: 100%; }
 }
-body{ font-size: 14px; background-image: url(../img/bg.jpg); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(188, 217, 196); -webkit-background-size: cover; background-size: cover; background-position: 165px 0px; background-repeat: repeat repeat; }
+body{ font-size: 14px; background-image: url(../img/bg.jpg); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(188, 217, 196); background-position: 165px 0px; background-repeat: repeat repeat; }
 @media screen and (min-width: 993px){
 body{ font-size: 16px; }
 }
@@ -36,7 +36,7 @@ p{ color: rgb(71, 79, 79); font: italic normal bold 0.875em/normal proxima-nova,
 @media screen and (min-width: 768px){
 .primary-content{ display: table-cell; }
 }
-#rwd-wrapper{ width: 100%; padding-top: 0px; padding-right: 1em; padding-bottom: 0px; padding-left: 1em; max-width: none; }
+#rwd-wrapper{ padding-top: 0px; padding-right: 1em; padding-bottom: 0px; padding-left: 1em; max-width: none; }
 @media screen and (min-width: 799px){
 #rwd-wrapper{ max-width: 800px; margin-left: 7%; }
 }
@@ -77,7 +77,7 @@ h1{ font-size: 5em; }
 }
 .contact-info p{ margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0.375em; padding-right: 0px; padding-bottom: 0.375em; padding-left: 0px; font: normal normal normal 0.8em/normal proxima-nova, Helvetica, sans-serif; color: rgb(119, 119, 119); line-height: 1.75; letter-spacing: 0.5px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); }
 .contact-info p:last-child{ border-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: initial; }
-#hamburger{ position: absolute; right: 0px; top: 0.5em; height: 2em; width: 2em; padding-top: 0.5em; padding-right: 0.25em; padding-bottom: 0.5em; padding-left: 0.25em; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); z-index: 10001; background-position: initial initial; background-repeat: initial initial; }
+#hamburger{ position: fixed; right: 0px; top: 0.5em; height: 2em; width: 2em; padding-top: 0.5em; padding-right: 0.25em; padding-bottom: 0.5em; padding-left: 0.25em; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); z-index: 10001; background-position: initial initial; background-repeat: initial initial; }
 #hamburger div{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(71, 79, 79); width: 1.5em; height: 3px; -webkit-transition-property: all; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-in-out; -webkit-transition-delay: initial; background-position: initial initial; background-repeat: initial initial; }
 #hamburger div + div{ margin-top: 3px; }
 #mobile-nav-wrapper{ position: absolute; top: -110%; left: 0px; right: 0px; width: 100%; min-height: 100%; height: auto; background-image: url(../img/bg.jpg); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(208, 229, 210); -webkit-background-size: cover; background-size: cover; z-index: 1000; -webkit-transition-property: all; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-in-out; -webkit-transition-delay: initial; -webkit-transform: translateY(-110%); background-position: 165px 0px; background-repeat: repeat repeat; }
