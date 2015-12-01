@@ -22,6 +22,9 @@ h2{ page-break-after: avoid; }
 }
 *{ max-width: 100%; outline-style: none !important; outline-width: initial !important; outline-color: initial !important; box-sizing: border-box; }
 html, body{ min-height: 100%; min-width: 100%; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
+@media screen and (min-width: 768px){
+html, body{ height: 100%; width: 100%; }
+}
 body{ font-size: 14px; background-image: url(../img/bg.jpg); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(188, 217, 196); -webkit-background-size: cover; background-size: cover; background-position: 165px 0px; background-repeat: repeat repeat; }
 @media screen and (min-width: 993px){
 body{ font-size: 16px; }
@@ -29,11 +32,11 @@ body{ font-size: 16px; }
 a{ text-decoration: none; }
 p{ color: rgb(71, 79, 79); font: italic normal bold 0.875em/normal proxima-nova, Helvetica, sans-serif; line-height: 2; }
 hr{ border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; border-top-width: 1px; border-top-style: solid; border-top-color: black; height: 1px; width: 100%; }
-.body-wrapper{ min-height: 100%; min-width: 100%; overflow-x: hidden; display: block; }
+.body-wrapper{ min-height: 100%; min-width: 100%; overflow-x: hidden; }
 @media screen and (min-width: 768px){
-.body-wrapper{ display: table; }
+.body-wrapper{ display: table; height: 100%; width: 100%; }
 }
-.primary-content{ padding-bottom: 5em; display: block; }
+.primary-content{ padding-bottom: 5em; }
 @media screen and (min-width: 768px){
 .primary-content{ display: table-cell; }
 }
@@ -68,6 +71,9 @@ h2{ font-size: 2.4375em; }
 @media screen and (min-width: 768px){
 .main-sidebar{ display: table-cell; vertical-align: top; width: 165px; padding-top: 0px; padding-right: 0.5em; padding-bottom: 0px; padding-left: 1em; background-color: rgb(255, 255, 255); }
 }
+@media screen and (max-width: 767px){
+.main-sidebar{ position: relative; overflow-y: scroll; }
+}
 @media screen and (min-width: 768px){
 .main-sidebar .fixed{ position: fixed; height: 100%; }
 }
@@ -92,7 +98,7 @@ h2{ font-size: 2.4375em; }
 #hamburger{ position: absolute; right: 0px; top: 0.5em; height: 2em; width: 2em; padding-top: 0.5em; padding-right: 0.25em; padding-bottom: 0.5em; padding-left: 0.25em; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); z-index: 10001; background-position: initial initial; background-repeat: initial initial; }
 #hamburger div{ background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(71, 79, 79); width: 1.5em; height: 3px; -webkit-transition-property: all; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-in-out; -webkit-transition-delay: initial; background-position: initial initial; background-repeat: initial initial; }
 #hamburger div + div{ margin-top: 3px; }
-#mobile-nav-wrapper{ position: absolute; top: -110%; left: 0px; right: 0px; width: 100%; height: 100%; background-image: url(../img/bg.jpg); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(208, 229, 210); -webkit-background-size: cover; background-size: cover; z-index: 1000; -webkit-transition-property: all; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-in-out; -webkit-transition-delay: initial; -webkit-transform: translateY(-110%); background-position: 165px 0px; background-repeat: repeat repeat; }
+#mobile-nav-wrapper{ position: absolute; top: -110%; left: 0px; right: 0px; width: 100%; min-height: 100%; height: auto; background-image: url(../img/bg.jpg); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(208, 229, 210); -webkit-background-size: cover; background-size: cover; z-index: 1000; -webkit-transition-property: all; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-in-out; -webkit-transition-delay: initial; -webkit-transform: translateY(-110%); background-position: 165px 0px; background-repeat: repeat repeat; }
 @media screen and (min-width: 768px){
 #mobile-nav-wrapper{ display: none; }
 }
