@@ -23,22 +23,22 @@ img{ max-width: 100% !important; }
 p{ orphans: 3; widows: 3; }
 }
 *{ max-width: 100%; outline-style: none !important; outline-width: initial !important; outline-color: initial !important; box-sizing: border-box; }
-html, body{ height: 100%; width: 100%; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
+html, body{ min-height: 100%; min-width: 100%; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
 body{ font-size: 14px; background-image: url(../img/bg.jpg); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(188, 217, 196); -webkit-background-size: cover; background-size: cover; background-position: 165px 0px; background-repeat: repeat repeat; }
 @media screen and (min-width: 993px){
 body{ font-size: 16px; }
 }
 a{ text-decoration: none; }
 p{ color: rgb(71, 79, 79); font: italic normal bold 0.875em/normal proxima-nova, Helvetica, sans-serif; line-height: 2; }
-.body-wrapper{ height: 100%; width: 100%; overflow-x: hidden; }
+.body-wrapper{ min-height: 100%; min-width: 100%; overflow-x: hidden; display: block; }
 @media screen and (min-width: 768px){
 .body-wrapper{ display: table; }
 }
-.primary-content{ padding-bottom: 5em; }
+.primary-content{ padding-bottom: 5em; display: block; }
 @media screen and (min-width: 768px){
 .primary-content{ display: table-cell; }
 }
-#rwd-wrapper{ width: auto; padding-top: 0px; padding-right: 1em; padding-bottom: 0px; padding-left: 1em; }
+#rwd-wrapper{ width: 100%; padding-top: 0px; padding-right: 1em; padding-bottom: 0px; padding-left: 1em; max-width: none; }
 @media screen and (min-width: 799px){
 #rwd-wrapper{ max-width: 800px; margin-left: 7%; }
 }
@@ -93,11 +93,12 @@ h1{ font-size: 5em; }
 @media screen and (min-width: 768px){
 #mobile-nav-wrapper{ display: none; }
 }
-.contact .grid{ margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 5%; }
+.contact .grid{ padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 5%; }
 .contact .icon-wrapper{ width: 3.4375em; text-align: left; display: inline-block; vertical-align: middle; }
 .contact .vert-align{ margin-bottom: 1.5em; vertical-align: middle; }
 .contact .vert-align *{ vertical-align: middle; }
 .contact .vert-align p{ display: inline-block; vertical-align: middle; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0.85em; font: normal normal normal 1.875em/normal populairemedium, Helvetica, sans-serif; color: rgb(71, 79, 79); letter-spacing: 1px; }
+#contact-form{ padding-bottom: 4em; }
 #contact-form input, #contact-form textarea{ background-color: transparent; -webkit-appearance: none; border-top-left-radius: 0px 0px; border-top-right-radius: 0px 0px; border-bottom-right-radius: 0px 0px; border-bottom-left-radius: 0px 0px; }
 #contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{ border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(136, 139, 137); border-right-color: rgb(136, 139, 137); border-bottom-color: rgb(136, 139, 137); border-left-color: rgb(136, 139, 137); width: 100%; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; font: normal normal normal 28px/normal populairemedium, Helvetica, sans-serif; line-height: 28px; padding-top: 0.25em; padding-right: 0.5em; padding-bottom: 0.25em; padding-left: 0.5em; -webkit-transition-property: all; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-in-out; -webkit-transition-delay: initial; color: rgb(71, 79, 79); letter-spacing: 1px; }
 #contact-form textarea{ padding-top: 0.5em; padding-right: 0.5em; padding-bottom: 0.5em; padding-left: 0.5em; }

@@ -1,6 +1,6 @@
 .contact {
 	.grid {
-		margin: 0 0 0 5%;
+		padding: 0 0 0 5%;
 	}
 	.icon-wrapper {
 		width: 3.4375em;
@@ -22,6 +22,7 @@
 }
 
 #contact-form {
+	padding-bottom: 4em;
 	input, textarea {
 		background-color: transparent;
 		appearance: none;

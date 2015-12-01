@@ -55,7 +55,7 @@
                     <li><a href="/contact">CONTACT</a></li>
                 </ul>
                 <div class="social-discover">
-                    <a href="" target="_blank">
+                    <a href="https://www.facebook.com/The-Earth-Cafe-and-Deli-241014890596/" target="_blank">
                         <i class="icon-facebook"></i>
                         DISCOVER THE EARTH
                     </a>
