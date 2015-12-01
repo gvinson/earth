@@ -7,7 +7,7 @@
 		@include('contact-criticalcss')
 	<? echo "</style>"; ?>
 	@parent
-	
+	<link rel="stylesheet" href="/js/vendor/js-webshim/minified/shims/styles/shim.css">
 @stop
 
 @section('content')
@@ -65,5 +65,5 @@
 
 @section('scripts')
 	@parent
-	
+	<script src="/js/vendor/js-webshim/minified/polyfiller.js"></script>
 @stop
